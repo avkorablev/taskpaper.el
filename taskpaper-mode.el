@@ -1,4 +1,4 @@
-;;; taskpaper.el --- Support for the TaskPaper format
+;;; taskpaper-mode.el --- Support for the TaskPaper format
 
 (defvar taskpaper-mode-map nil "Keymap for taskpaper-mode")
 (when (not taskpaper-mode-map)
