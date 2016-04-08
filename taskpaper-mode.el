@@ -13,7 +13,7 @@
       '(
         (".*@done.*" . font-lock-comment-face)
         (".*:$" . font-lock-function-name-face)
-        ("^[[:space:]]*[^- ].*[^:]$" . font-lock-comment-face)
+        ("^[[:blank:]]*[^- ].*[^:]$" . font-lock-comment-face)
         ("@.*" . font-lock-variable-name-face)
         
         )
