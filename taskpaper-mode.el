@@ -147,6 +147,9 @@
   ;; Dont wrap lines
   (toggle-truncate-lines t)
   
+  ;; Tabs instead spaces
+  (setq indent-tabs-mode t)
+  
   ;; ... other code here
 
   (run-hooks 'taskpaper-mode-hook))
